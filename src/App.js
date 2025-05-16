@@ -5,7 +5,6 @@ import { Navbar} from './Component/Navbar';
 import { Home, About, Contact, Uppgift2, Uppgift3 } from './Pages';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-
 function App() {
   return (
     
@@ -14,6 +13,7 @@ function App() {
       <>
         <Navbar />
         <Header />
+
               <div className="main-layout flex flex-col min-h-screen">
               <div className="flex flex-grow">
               
